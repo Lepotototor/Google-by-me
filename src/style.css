@@ -1,4 +1,4 @@
-body { width: 100vw; height: 100vh; background-color: #202124; overflow: hidden; font-family: arial, sans-serif; display: flex; flex-direction: column; position: relative; }
+body { width: 100vw; height: 100vh; background-color: #202124; overflow: hidden; font-family: arial, sans-serif; display: flex; flex-direction: column; position: relative; margin: 0; }
 
 a { color: #e8eaed; text-decoration: none; }
 
