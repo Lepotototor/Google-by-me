@@ -216,7 +216,7 @@ footer {
 
 @media all and (max-width: 1024px) {
   body {
-    width: auto;
+    width: 375px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -228,14 +228,14 @@ footer {
 
   section {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 20%;
     p {
       display: none;
     }
   }
 
   .searchBar {
-    width: 90vw;
+    width: 350px;
   }
   #bar {
     width: 300px;
@@ -252,8 +252,11 @@ footer {
     margin-top: 5%;
   }
 
-  footer div ul li {
-    margin: 2% 7%;
+  footer {
+    width: 375px;
+    div ul li {
+      margin: 2% 7%;
+    }
   }
 
 
