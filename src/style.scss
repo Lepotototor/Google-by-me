@@ -222,23 +222,20 @@ footer {
   }
 
   nav ul {
-    right: auto;
-    left: auto;
+    position: inherit;
+    justify-content: center;
   }
 
   section {
-    margin-top: 50%;
-    img {
-    width: 60%;
-    height: 60%;
-    }
+    margin: auto;
+    margin-top: 10%;
     p {
       display: none;
     }
   }
 
   .searchBar {
-    width: 320px;
+    width: 90vw;
   }
   #bar {
     width: 300px;
