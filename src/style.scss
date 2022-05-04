@@ -3,6 +3,7 @@ $bg-vantablack : #171717;
 $font-color : #e8eaed;
 $bg-elements : #303134;
 $border-btns : #5f6368;
+$width-phone : 375px;
 
 body {
   width: 100vw;
@@ -215,18 +216,27 @@ footer {
 
 
 @media all and (max-width: 1024px) {
+
+  * {
+    width: $width-phone;
+  }
+
   body {
-    width: 375px;
+    width: $width-phone;
     margin-left: auto;
     margin-right: auto;
   }
 
-  nav ul {
+  nav {
+    width: $width-phone;
+    ul {
     position: inherit;
     justify-content: center;
+    }
   }
 
   section {
+    width: $width-phone;
     margin: auto;
     margin-top: 20%;
     p {
@@ -253,7 +263,7 @@ footer {
   }
 
   footer {
-    width: 375px;
+    width: $width-phone;
     div ul li {
       margin: 2% 7%;
     }
