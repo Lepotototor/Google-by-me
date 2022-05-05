@@ -218,8 +218,8 @@ footer {
 @media all and (max-width: 1024px) {
 
   body {
-    width: auto;
-    height: 200vh;
+    width: 60%;
+    height: 140vh;
     margin-left: auto;
     margin-right: auto;
     overflow-y: scroll;
@@ -239,7 +239,7 @@ footer {
     margin-top: 20%;
     img {
       margin-top: 20%;
-      width: 50vw;
+      width: 55%;
       height: auto;
     }
     p {
@@ -248,7 +248,7 @@ footer {
   }
 
   .searchBar {
-    width: 90vw;
+    width: 90%;
   }
   #bar {
     width: 90%;
