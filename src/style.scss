@@ -3,7 +3,7 @@ $bg-vantablack : #171717;
 $font-color : #e8eaed;
 $bg-elements : #303134;
 $border-btns : #5f6368;
-$width-phone : 375px;
+$width-phone : 100%;
 
 body {
   width: 100vw;
@@ -218,7 +218,7 @@ footer {
 @media all and (max-width: 1024px) {
 
   body {
-    width: $width-phone;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     overflow-y: scroll;
@@ -242,11 +242,11 @@ footer {
   }
 
   .searchBar {
-    width: 350px;
+    width: 90vw;
   }
   #bar {
-    width: 300px;
-    margin-left: 2%;;
+    width: 90%;
+    margin-left: 0;
   }
   #mic {
     display: none;

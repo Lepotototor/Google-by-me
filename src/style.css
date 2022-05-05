@@ -58,15 +58,15 @@ footer div ul li a { color: #9aa0a6; }
 
 #separator { background-color: #202124; width: 100%; height: 1px; }
 
-@media all and (max-width: 1024px) { body { width: 375px; margin-left: auto; margin-right: auto; overflow-y: scroll; }
-  nav { width: 375px; }
+@media all and (max-width: 1024px) { body { width: auto; margin-left: auto; margin-right: auto; overflow-y: scroll; }
+  nav { width: 100%; }
   nav ul { position: inherit; justify-content: center; }
-  section { width: 375px; margin: auto; margin-top: 20%; }
+  section { width: 100%; margin: auto; margin-top: 20%; }
   section p { display: none; }
-  .searchBar { width: 350px; }
-  #bar { width: 300px; margin-left: 2%; }
+  .searchBar { width: 90vw; }
+  #bar { width: 90%; margin-left: 0; }
   #mic { display: none; }
   #btns { display: none; }
   #ecologie { margin-top: 5%; }
-  footer { width: 375px; }
+  footer { width: 100%; }
   footer div ul li { margin: 2% 7%; } }
